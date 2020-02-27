@@ -1,0 +1,10 @@
+/* One final(Default) class which extends the abstract class, this class should implement the abstract method,
+ *  and override the virtual method. Additionally this class should feature constructor chaining. */
+public class Week2ChallengeOne extends Week2ChallengeOneAbstract {
+    public override void sayHi() {
+        system.debug('Hello there!');
+    }
+    public override void generateResponse() {
+        system.debug('General Kenobi!');
+    }
+}
